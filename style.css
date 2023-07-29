@@ -1,0 +1,167 @@
+* {
+	font-family: serif; 
+    font-size: 25px;
+}
+body{
+    background-image: linear-gradient(to bottom, #d299c2 0%, #fef9d7 80%);
+	
+	
+}
+header{
+	background-image: linear-gradient(to bottom, #d299c2 0%, #fef9d7 40%);
+	border: 0.5rem outset rgba(220, 200, 222, 0.549);
+	outline: 1rem solid rgba(60, 8, 49, 0.592);
+	box-shadow: 0 0 0 2rem rgba(179, 131, 172, 0.722);
+	margin: 2rem;
+	padding: 1rem;
+	outline-offset: 0.5rem;
+	background-image: url("bg.jpg");
+
+}
+
+.btn-primary{
+	background-color: #641850;
+    border-color: #41083d;
+
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #390c2d;
+    border-color: #220420;
+	font-size: 25px;
+}
+.prompt {
+	display: block;
+	font-size: 20px;
+}
+h1 { 
+    color: rgb(37, 8, 33); 
+    font-family: serif; 
+    font-size: 115px; font-weight: bold; 
+    letter-spacing: 10px; 
+	padding-top: 20rem;
+	padding-bottom: 19rem;
+    text-align: center; 
+}
+
+h2{
+	
+	background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+	flex: 1 1 auto;
+	margin: 10px;
+	padding: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: rgb(0, 0, 0);
+	box-shadow: 0 0 20px #eee;
+	border-radius: 10px;
+}
+
+
+h2:hover{
+	background-position: right center; /* change the direction of the change here */
+}
+.btn {
+	margin: 0 20px 0 20px;
+}
+
+.btn-strongly-agree {
+	color: #89d298;
+	font-weight: bold;
+}
+
+.list-group-item {
+	position:inherit;
+	margin: 10;
+	display:inline-flex;
+    padding: 20px 30px;
+	width: fit-content;
+    background-color: #e9b2d642;
+    border: 1px solid rgba(134, 16, 128, 0.174);
+	
+}
+.quiz-list-group {
+	padding-left: 60;
+    margin-bottom: 20px;
+}
+.text-center {
+    text-align: left;	
+  
+}
+.container {
+    width: fit-content;
+}
+.btn-strongly-agree.active,
+.btn-strongly-agree:active,
+.btn-strongly-agree:focus,
+.btn-strongly-agree:active:focus,
+.btn-strongly-agree.active:focus,
+.btn-strongly-agree:hover
+ {
+	background-color: #89d298;
+	font-size: 25px;
+	
+}
+
+.btn-agree {
+	color: #89d298;
+}
+
+.btn-agree.active,
+.btn-agree:active,
+.btn-agree:focus,
+.btn-agree:active:focus,
+.btn-agree.active:focus,
+.btn-agree:hover {
+	background-color: rgba(137, 210, 152, 0.5);
+	font-size: 25px;
+}
+
+.btn-disagree {
+	color: #e28181;
+}
+
+.btn-disagree.active,
+.btn-disagree:active,
+.btn-disagree:focus,
+.btn-disagree:active:focus,
+.btn-disagree.active:focus,
+.btn-disagree:hover {
+	background-color: rgba(226, 129, 129, 0.5);
+	font-size: 22px;
+}
+
+.btn-strongly-disagree {
+	color: #e28181;
+	font-weight: bold;
+}
+
+.btn-strongly-disagree.active,
+.btn-strongly-disagree:active,
+.btn-strongly-disagree:focus,
+.btn-strongly-disagree:active:focus,
+.btn-strongly-disagree.active:focus,
+.btn-strongly-disagree:hover {
+	background-color: #e28181;
+	font-size: 25px;
+}
+
+.bottom {
+	margin-bottom: 100px;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+/* RESULTS */
+.results {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
